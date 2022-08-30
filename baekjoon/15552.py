@@ -15,7 +15,7 @@ ex) list, range(from, to?)
 
 import sys
 
-n = int(sys.stdin.readline())
+n = int(sys.stdin.readline().strip()) # strip() 공백 제거 할것!
 
 for i in range(n):
     a, b = map(int, sys.stdin.readline().split(' '))
