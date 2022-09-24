@@ -22,3 +22,8 @@ b, c, e = a
 
 print(b, c, e)
 
+d = [1 ,2, 3]
+if d[3]:
+    print('if')
+else:
+    print('else')
