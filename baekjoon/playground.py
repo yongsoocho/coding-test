@@ -35,3 +35,12 @@ if strr:
     print("if str")
 else:
     print('else str')
+
+
+test_code = [[7], [3, 8], [8, 1, 0], [2, 7, 4, 4], [4, 5, 2, 6, 5]]
+test_ans = 0
+
+for v in test_code:
+    test_ans += max(v)
+
+print(test_ans)
